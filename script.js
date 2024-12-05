@@ -145,7 +145,7 @@ $(document).ready(function () {
 
     window.showResults = function(){
         let results = JSON.parse(localStorage.getItem("results"));
-        let resultsHtml = "<span class=\"modal-close\">x</span>";
+        let resultsHtml = "";
         results.forEach(result => {
             resultsHtml += "<div class='result-container'>"
             resultsHtml += "<h3>"+result.question.Area+"</h3>";
