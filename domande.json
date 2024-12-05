@@ -1,0 +1,506 @@
+[
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il suo rapporto con le regole: Le rispetta?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il suo rapporto con le regole: Le rielabora?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il suo rapporto con le regole: Le costruisce con gli altri?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il suo rapporto con le regole: Le \"trasgredisce\"?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il tema della legalità e dei diritti: È interessato?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il tema della legalità e dei diritti: Si impegna per la difesa e promozione dei diritti?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il tema della legalità e dei diritti: È indifferente?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come vive il tema della legalità e dei diritti: È proattivo?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come partecipa alla società: È attivo/a e proattivo?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come partecipa alla società: È interessato/a e critico?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come partecipa alla società: Fa volontariato?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come partecipa alla società: Ha un atteggiamento laico e democratico?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): Ricerca la natura?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): La rispetta?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): È sensibile alle tematiche ambientali?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): È promotore di atteggiamenti rispettosi e sostenibili?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Quanto conosce e come utilizza i mass media e i social media?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con i messaggi veicolati dalla società/media: È curioso?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con i messaggi veicolati dalla società/media: Approfondisce?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con i messaggi veicolati dalla società/media: Si lascia influenzare?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come sviluppa le proprie idee: Si lascia guidare?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come sviluppa le proprie idee: Ricerca?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come sviluppa le proprie idee: Elabora?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come sviluppa le proprie idee: Si lascia influenzare dagli stereotipi?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: È accogliente?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Curioso?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Impaurito?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Discriminante?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Come vive e gestisce il conflitto?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo fa esplodere?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo previene?"
+    },
+    {
+        "Area": "Impegno Civile",
+        "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo cerca?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Quanta consapevolezza ha dei propri limiti e delle proprie potenzialità: Si interroga?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Quanta consapevolezza ha dei propri limiti e delle proprie potenzialità: Si mette alla prova?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive i cambiamenti del proprio corpo: Ne è consapevole?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive i cambiamenti del proprio corpo: Li accetta?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive i cambiamenti del proprio corpo: Si valorizza?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come sviluppa i suoi sensi: Li allena?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come sviluppa i suoi sensi: Si mette alla prova?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come sviluppa i suoi sensi: Sperimenta?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come sviluppa i suoi sensi: Sa utilizzarli tutti per entrare in relazione con il mondo e l'altro da sé?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come gestisce il proprio corpo e la propria igiene?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Quanto e come tutela la propria salute: Conosce i comportamenti dannosi?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Quanto e come tutela la propria salute: Attua condotte a rischio?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive il rapporto con il cibo?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come comunica attraverso il corpo: E' attento e sensibile negli approcci fisici?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come entra il relazione con il corpo altrui: E' rispettoso/a?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive la propria sessualità: Si interroga?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive la propria sessualità: La agisce?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive la propria sessualità: E' curioso?"
+    },
+    {
+        "Area": "Corporeità",
+        "Question": "Come vive la propria sessualità: Considera la componente emotivo-affettiva?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: È creativo e fantasioso?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: È originale?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: Le preserva?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: Le spreca?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia alla realtà che lo circonda: È curioso?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia alla realtà che lo circonda: Attento?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia ai problemi: Si lascia scoraggiare?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia ai problemi: Cerca soluzioni originali?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia ai problemi: Si “accomoda” sul già conosciuto?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si approccia ai problemi: Osserva la situazione sotto vari punti di vista?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si esprime: È creativo?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si esprime: Utilizza stereotipi?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come si esprime: Ha interesse per forme creative di espressione?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come gestisce i progetti: Ne conosce le fasi?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come gestisce i progetti: Segue un filo logico?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come gestisce i progetti: Considera le risorse necessarie?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come collabora con gli altri nella progettazione: È proattivo?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come collabora con gli altri nella progettazione: Aperto al confronto?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come collabora con gli altri nella progettazione: Ha spirito d'iniziativa?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica i progetti: È attivo e proattivo?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica i progetti: Ha spirito d'iniziativa?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica i progetti: Ha bisogno di essere sollecitato?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica i progetti: Si sente responsabile?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: Le valorizza?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come utilizza le risorse a disposizione: Le spreca?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica la sostenibilità: Fa attenzione a non sprecare?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica la sostenibilità: Attribuisce valore alle risorse?"
+    },
+    {
+        "Area": "Creatività",
+        "Question": "Come mette in pratica la sostenibilità: Assume comportamenti sostenibili?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: È consapevole?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: Si impegna in prima persona?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: Si arrende o persevera?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: Si assume la responsabilità dei risultati?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come elabora le proprie opinioni/idee/scelte: È consapevole che ci possono dare diverse interpretazioni dello stesso messaggio/situazione?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come elabora le proprie opinioni/idee/scelte: È curioso?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come elabora le proprie opinioni/idee/scelte: Ha un atteggiamento critico di ricerca?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come elabora le proprie opinioni/idee/scelte: Porta avanti le proprie idee?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il suo rapporto con i valori scout: Li conosce?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il suo rapporto con i valori scout: Li condivide?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il suo rapporto con i valori scout: Li rispetta?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive il suo rapporto con i valori scout: Si impegna nel percorso di crescita alla luce di questi valori?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come gestisce le proprie emozioni: Le riconosce?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come gestisce le proprie emozioni: Le esprime?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come si relaziona con le emozioni altrui: Le riconosce?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come si relaziona con le emozioni altrui: Le rispetta?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con gli altri: È rispettoso?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con gli altri: Attento?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con gli altri: Sensibile?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con gli altri: Considera i bisogni dell'altro?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con gli altri: È empatico?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come entra in relazione con le figure di riferimento (adulti)?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come comunica: Sa usare più canali/mezzi?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come comunica: Esprime le proprie idee, bisogni, emozioni in modo efficace?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come comunica: Sa ascoltare?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come comunica: Accoglie opinioni diverse dalle sue?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come comunica: Utilizza consapevolmente i social media?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come si confronta: Sa essere costruttivo/a e accogliente?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come si relaziona con il gruppo dei pari?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive la collaborazione: La ricerca?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive la collaborazione: Valorizza il contributo degli altri?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive la collaborazione: Si impegna?"
+    },
+    {
+        "Area": "Carattere",
+        "Question": "Come vive la collaborazione: È proattivo?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: Si fa delle domande?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: Si approccia in modo curioso e introspettivo alle situazioni che vive?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: Cerca delle risposte possibili?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: È consapevole della \"parzialità\" delle risposte?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: Si confronta con gli altri?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come vive lo spirito di ricerca: È rispettoso delle risposte altrui?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Si pone delle domande anche sul trascendente: Trova alcune risposte in tal senso?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Si pone delle domande anche sul trascendente: Sa che gli altri possono trovarne?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come rielabora le esperienze che vive: Sa riconoscere le \"tracce\" lasciate?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come rielabora le esperienze che vive: Riconosce gli effetti di queste tracce sulla sua crescita?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come rielabora le esperienze che vive: Riesce a trarre esperienza e crescita anche dai vissuti negativi?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come mette in pratica i propri valori: Li sa esprimere?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come mette in pratica i propri valori: Sa riconoscere i comportamenti coerenti?"
+    },
+    {
+        "Area": "Dimensione Spirituale",
+        "Question": "Come mette in pratica i propri valori: Li mette in atto?"
+    }
+]

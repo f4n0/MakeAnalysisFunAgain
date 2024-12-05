@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Swipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Swipiamo l'analisi</h1>
+    <div style="
+    flex-grow: 0.5;
+    "></div>
+    <div class="container">
+
+        <div id="question-container">
+            <h3 id="questionArea"></h1>
+                <h1 id="question"></h1>
+        </div>
+        <div id="name-container">
+            <div id="swipe-card" class="card">
+                <p id="name"></p>
+            </div>
+        </div>
+    </div>
+    <div style="
+    flex-grow: 0.1;
+    "></div>
+    <div>
+        <a href="#" onclick="showResults()" style="
+        color: black;
+        text-decoration: underline;    ">results</a>
+    </div>
+    <div id="nameList">
+        <span class="modal-close">x</span>
+        <h3>Add your names</h3>
+        <textarea id="TextAreaNames" placeholder="Enter names here"></textarea>
+
+        <button onclick="saveNames()">Save</button>
+    </div>
+
+    <div id="results">
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
