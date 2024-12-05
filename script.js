@@ -4,7 +4,7 @@
 $(document).ready(function () {
     var myElement = document.getElementById('swipe-card');
     $("#nameList").hide();
-    $("#results").hide();
+    $("#ResultContainer").hide();
     let nameIndex = 0
     let QuestionIndex = 0;
     let QuestionLoaded = false;
@@ -165,7 +165,7 @@ $(document).ready(function () {
             resultsHtml += "</ul></div></div></div>";
         });
         $("#results").html(resultsHtml);
-        $("#results").show();
+        $("#ResultContainer").show();
     }
     $(document).on("click", ".modal-close", (e)=>{        
         $("#"+e.target.parentElement.id).hide();
