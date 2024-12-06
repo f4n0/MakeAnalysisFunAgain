@@ -11,8 +11,11 @@
 
 <body>
     <h1>Swipiamo l'analisi</h1>
+    <p style="text-align: center;">
+        swipa a destra per dire che è un punto di forza, a sinistra per dire che è un punto da incrementare, verso l'alto per dire che non sai
+    </p>
     <div style="
-    flex-grow: 0.5;
+    flex-grow: 0.2;
     "></div>
     <div class="container">
 
@@ -22,22 +25,50 @@
                 <h1 id="question"></h1>
         </div>
         <div id="name-container">
+            <div id="swipe-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512" class="swipe-icon">
+                    <path fill="currentColor"
+                        d="M202.021 0C122.202 0 70.503 32.703 29.914 91.026c-7.363 10.58-5.093 25.086 5.178 32.874l43.138 32.709c10.373 7.865 25.132 6.026 33.253-4.148c25.049-31.381 43.63-49.449 82.757-49.449c30.764 0 68.816 19.799 68.816 49.631c0 22.552-18.617 34.134-48.993 51.164c-35.423 19.86-82.299 44.576-82.299 106.405V320c0 13.255 10.745 24 24 24h72.471c13.255 0 24-10.745 24-24v-5.773c0-42.86 125.268-44.645 125.268-160.627C377.504 66.256 286.902 0 202.021 0zM192 373.459c-38.196 0-69.271 31.075-69.271 69.271c0 38.195 31.075 69.27 69.271 69.27s69.271-31.075 69.271-69.271s-31.075-69.27-69.271-69.27z" />
+                </svg>
+            </div>
+            <div id="swipe-left">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" class="swipe-icon">
+                    <path fill="currentColor"
+                        d="m12.12 10l3.53 3.53l-2.12 2.12L10 12.12l-3.54 3.54l-2.12-2.12L7.88 10L4.34 6.46l2.12-2.12L10 7.88l3.54-3.53l2.12 2.12z" />
+                </svg>
+            </div>
             <div id="swipe-card" class="card">
                 <p id="name"></p>
             </div>
+
+            <div id="swipe-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" class="swipe-icon">
+                    <path fill="currentColor" d="m14.83 4.89l1.34.94l-5.81 8.38H9.02L5.78 9.67l1.34-1.25l2.57 2.4z" />
+                </svg>
+            </div>
         </div>
+
+
+
+
     </div>
     <div style="
     flex-grow: 0.1;
     "></div>
-    <div>
+    <div class="links">
+        
+<!-- <a href="/compare.html" style="
+color: black;
+text-decoration: underline;    ">Confronta Risultati</a> -->
         <a href="#" onclick="showResults()" style="
         color: black;
-        text-decoration: underline;    ">results</a>
+        text-decoration: underline;    ">Risultati</a>
+        
     </div>
     <div id="nameList">
         <span class="modal-close">x</span>
         <h3>Add your names</h3>
+        <p>Aggiungi i nomi della tua unità, poi clicca su salva! metti i nomi uno per riga!</p>
         <textarea id="TextAreaNames" placeholder="Enter names here"></textarea>
 
         <button onclick="saveNames()">Save</button>
@@ -48,6 +79,7 @@
         <div id="results">
 
         </div>
+        <a href="#" onclick="DownloadResults()" style="margin-top: 10px;">Scarica Risultati</a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function () {
     var myElement = document.getElementById('swipe-card');
     $("#nameList").hide();
@@ -89,16 +86,20 @@ $(document).ready(function () {
             ShowNames();
         } else if (QuestionLoaded) {
             if (FirstTimeLoading) {
-                if (LatestGameIndexes != null) {
-
-                    if (confirm("Do you want to load the progress from the last time ? (no will reset the progress)")) {
+                if (LatestGameIndexes != null && (LatestGameIndexes.nameIndex != 0 || LatestGameIndexes.QuestionIndex != 0)) {
+                    if (confirm("Vuoi caricare i progressi dell'ultima volta? (no, i progressi verranno reimpostati)")) {
                         nameIndex = LatestGameIndexes.nameIndex;
                         QuestionIndex = LatestGameIndexes.QuestionIndex;
                     } else {
                         localStorage.removeItem("results");
                         localStorage.removeItem("Indexes");
+                        location.reload();
+
                     }
                     FirstTimeLoading = false;
+                }else{
+                    FirstTimeLoading = false
+                    ShowNames();
                 }
             };
             if (nameIndex >= names.length) {
@@ -126,7 +127,7 @@ $(document).ready(function () {
     function ShowNames() {
         $("#nameList").show();
         if (names != null) {
-            $("#TextAreaNames").val(names.join("\n"));
+            $("#TextAreaNames").trigger("input").val(names.join("\n"));
         }
     }
 
@@ -143,27 +144,124 @@ $(document).ready(function () {
         }
     }
 
+    window.DownloadResults = function () {
+        let results = JSON.parse(localStorage.getItem("results"));
+        let resultsHtml = "";
+        var resultViewModel = [];
+        //{name:"name", positive:[question], negative:[question], notSure:[ question]}
+        results.forEach(result => {
+            result.Positive.forEach(name => {
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[result.question], negative:[], notSure:[]});
+                }else{
+                    resultViewModel[index].positive.push(result.question);
+                }
+            });
+            result.Negative.forEach(name => {
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[], negative:[result.question], notSure:[]});
+                }else{
+                    resultViewModel[index].negative.push(result.question);
+                }
+            });
+            result.NotSure.forEach(name => {
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[], negative:[], notSure:[result.question]});
+                }else{
+                    resultViewModel[index].notSure.push(result.question);
+                }
+            });
+        });
+        
+        let json = JSON.stringify(resultViewModel, null, 2);
+        var hiddenElement = document.createElement('a');
+        hiddenElement.href = 'data:text/json;charset=utf-8,' + encodeURI(json);
+        hiddenElement.target = '_blank';
+        hiddenElement.download = 'results.json';
+        hiddenElement.click();
+        
+    }
+
     window.showResults = function(){
         let results = JSON.parse(localStorage.getItem("results"));
         let resultsHtml = "";
+        var resultViewModel = [];
+        //{name:"name", positive:[question], negative:[question], notSure:[ question]}
         results.forEach(result => {
-            resultsHtml += "<div class='result-container'>"
-            resultsHtml += "<h3>"+result.question.Area+"</h3>";
-            resultsHtml += "<p>"+result.question.Question+"</p>";
-            resultsHtml += "<div class='result'><div class='positive'><h4>Positive</h4><ul>";
             result.Positive.forEach(name => {
-                resultsHtml += "<li>"+name+"</li>";
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[result.question], negative:[], notSure:[]});
+                }else{
+                    resultViewModel[index].positive.push(result.question);
+                }
             });
-            resultsHtml += "</ul></div><div class='negative'><h4>Negative</h4><ul>";
             result.Negative.forEach(name => {
-                resultsHtml += "<li>"+name+"</li>";
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[], negative:[result.question], notSure:[]});
+                }else{
+                    resultViewModel[index].negative.push(result.question);
+                }
             });
-            resultsHtml += "</ul></div><div class='not-sure'><h4>Not Sure</h4><ul>";
             result.NotSure.forEach(name => {
-                resultsHtml += "<li>"+name+"</li>";
+                var index = resultViewModel.findIndex(x=>x.name == name);
+                if(index == -1){
+                    resultViewModel.push({name:name, positive:[], negative:[], notSure:[result.question]});
+                }else{
+                    resultViewModel[index].notSure.push(result.question);
+                }
             });
-            resultsHtml += "</ul></div></div></div>";
         });
+       
+        resultViewModel.forEach(result => {
+            resultsHtml += `<div class="result-item">
+                <h3>${result.name}</h3>
+                <table>
+                <tr>
+                    <th>Area</th>
+                    <th>Punti di Forza</th>
+                    <th>Punti da incrementare</th>
+                    <th>Non sono sicuro</th>
+                </tr>
+                <tr>
+                <td>Impegno Civile</td>
+                <td>${result.positive.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
+                </tr>
+                <tr>
+                <td>Corporeità</td>
+                <td>${result.positive.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
+                </tr>
+                <tr>
+                <td>Creatività</td>
+                <td>${result.positive.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
+                </tr>
+                <tr>
+                <td>Carattere</td>
+                <td>${result.positive.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
+                </tr>
+                <td>Dimensione Spirituale</td>
+                <td>${result.positive.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
+                </tr>
+                </table>
+                <hr>
+                `;
+        });
+
+        
         $("#results").html(resultsHtml);
         $("#ResultContainer").show();
     }
@@ -176,13 +274,3 @@ $(document).ready(function () {
 });
 
 
-
-
-document.querySelectorAll('textarea').forEach(el => {
-    el.style.height = el.setAttribute('style', 'height: ' + (parseInt(el.scrollHeight) + 15) + 'px');
-    el.classList.add('auto');
-    el.addEventListener('input', e => {
-        el.style.height = 'auto';
-        el.style.height = (el.scrollHeight) + 'px';
-    });
-});
