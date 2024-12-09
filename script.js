@@ -229,32 +229,32 @@ $(document).ready(function () {
                 </tr>
                 <tr>
                 <td>Impegno Civile</td>
-                <td>${result.positive.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.negative.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.notSure.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.positive.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult.Positive).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult.Negative).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Impegno Civile").map(o=> o.AsResult.Positive).join(", ")}</td>
                 </tr>
                 <tr>
                 <td>Corporeità</td>
-                <td>${result.positive.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.negative.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.notSure.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.positive.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult.Positive).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult.Negative).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Corporeità").map(o=> o.AsResult.Positive).join(", ")}</td>
                 </tr>
                 <tr>
                 <td>Creatività</td>
-                <td>${result.positive.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.negative.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.notSure.filter(x=>x.Area == "Creatività").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.positive.filter(x=>x.Area == "Creatività").map(o=> o.AsResult.Positive).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Creatività").map(o=> o.AsResult.Negative).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Creatività").map(o=> o.AsResult.Positive).join(", ")}</td>
                 </tr>
                 <tr>
                 <td>Carattere</td>
-                <td>${result.positive.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.negative.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.notSure.filter(x=>x.Area == "Carattere").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.positive.filter(x=>x.Area == "Carattere").map(o=> o.AsResult.Positive).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Carattere").map(o=> o.AsResult.Negative).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Carattere").map(o=> o.AsResult.Positive).join(", ")}</td>
                 </tr>
                 <td>Dimensione Spirituale</td>
-                <td>${result.positive.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.negative.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
-                <td>${result.notSure.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult).join(", ")}</td>
+                <td>${result.positive.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult.Positive).join(", ")}</td>
+                <td>${result.negative.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult.Negative).join(", ")}</td>
+                <td>${result.notSure.filter(x=>x.Area == "Dimensione Spirituale").map(o=> o.AsResult.Positive).join(", ")}</td>
                 </tr>
                 </table>
                 <hr>

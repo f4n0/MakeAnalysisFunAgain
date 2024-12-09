@@ -2,412 +2,658 @@
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il suo rapporto con le regole: Le rispetta?",
-        "AsResult": "Rispetta le regole"
+        "AsResult": {
+            "Positive": "Rispetta le regole",
+            "Negative": "Non rispetta le regole"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il suo rapporto con le regole: Le rielabora?",
-        "AsResult": "Rielabora le regole"
+        "AsResult": {
+            "Positive": "Rielabora le regole",
+            "Negative": "Non rielabora le regole"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il suo rapporto con le regole: Le costruisce con gli altri?",
-        "AsResult": "Costruisce le regole con gli altri"
+        "AsResult": {
+            "Positive": "Costruisce le regole con gli altri",
+            "Negative": "Non costruisce le regole con gli altri"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il suo rapporto con le regole: Le \"trasgredisce\"?",
-        "AsResult": "Trasgredisce le regole"
+        "AsResult": {
+            "Positive": "Non trasgredisce le regole",
+            "Negative": "Trasgredisce le regole"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il tema della legalità e dei diritti: È interessato?",
-        "AsResult": "È interessato ai diritti"
+        "AsResult": {
+            "Positive": "È interessato ai diritti",
+            "Negative": "Non è interessato ai diritti"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il tema della legalità e dei diritti: Si impegna per la difesa e promozione dei diritti?",
-        "AsResult": "Si impegna per la difesa e promozione dei diritti"
+        "AsResult": {
+            "Positive": "Si impegna per la difesa e promozione dei diritti",
+            "Negative": "Non si impegna per la difesa e promozione dei diritti"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il tema della legalità e dei diritti: È indifferente?",
-        "AsResult": "È indifferente ai diritti"
+        "AsResult": {
+            "Positive": "Non è indifferente ai diritti",
+            "Negative": "È indifferente ai diritti"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come vive il tema della legalità e dei diritti: È proattivo?",
-        "AsResult": "È proattivo per la legalità"
+        "AsResult": {
+            "Positive": "È proattivo per la legalità",
+            "Negative": "Non è proattivo per la legalità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come partecipa alla società: È attivo/a e proattivo?",
-        "AsResult": "È attivo/a e proattivo"
+        "AsResult": {
+            "Positive": "È attivo/a e proattivo",
+            "Negative": "Non è attivo/a e proattivo"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come partecipa alla società: È interessato/a e critico?",
-        "AsResult": "È interessato/a e critico"
+        "AsResult": {
+            "Positive": "È interessato/a e critico",
+            "Negative": "Non è interessato/a e critico"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come partecipa alla società: Fa volontariato?",
-        "AsResult": "Fa volontariato"
+        "AsResult": {
+            "Positive": "Fa volontariato",
+            "Negative": "Non fa volontariato"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come partecipa alla società: Ha un atteggiamento laico e democratico?",
-        "AsResult": "Ha un atteggiamento laico e democratico"
+        "AsResult": {
+            "Positive": "Ha un atteggiamento laico e democratico",
+            "Negative": "Non ha un atteggiamento laico e democratico"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): Ricerca la natura?",
-        "AsResult": "Ricerca la natura"
+        "AsResult": {
+            "Positive": "Ricerca la natura",
+            "Negative": "Non ricerca la natura"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): La rispetta?",
-        "AsResult": "Rispetta l'ambiente"
+        "AsResult": {
+            "Positive": "Rispetta l'ambiente",
+            "Negative": "Non rispetta l'ambiente"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): È sensibile alle tematiche ambientali?",
-        "AsResult": "È sensibile alle tematiche ambientali"
+        "AsResult": {
+            "Positive": "È sensibile alle tematiche ambientali",
+            "Negative": "Non è sensibile alle tematiche ambientali"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con l'ambiente di appartenenza (naturale e non): È promotore di atteggiamenti rispettosi e sostenibili?",
-        "AsResult": "È promotore di atteggiamenti rispettosi e sostenibili"
+        "AsResult": {
+            "Positive": "È promotore di atteggiamenti rispettosi e sostenibili",
+            "Negative": "Non è promotore di atteggiamenti rispettosi e sostenibili"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Quanto conosce e come utilizza i mass media e i social media?",
-        "AsResult": "Conosce e utilizza i mass media e i social media"
+        "AsResult": {
+            "Positive": "Conosce e utilizza i mass media e i social media",
+            "Negative": "Non conosce e utilizza i mass media e i social media"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con i messaggi veicolati dalla società/media: È curioso?",
-        "AsResult": "È curioso dei messaggi veicolati dalla società/media"
+        "AsResult": {
+            "Positive": "È curioso dei messaggi veicolati dalla società/media",
+            "Negative": "Non è curioso dei messaggi veicolati dalla società/media"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con i messaggi veicolati dalla società/media: Approfondisce?",
-        "AsResult": "Approfondisce i messaggi veicolati dalla società/media"
+        "AsResult": {
+            "Positive": "Approfondisce i messaggi veicolati dalla società/media",
+            "Negative": "Non approfondisce i messaggi veicolati dalla società/media"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con i messaggi veicolati dalla società/media: Si lascia influenzare?",
-        "AsResult": "Si lascia influenzare dai messaggi veicolati dalla società/media"
+        "AsResult": {
+            "Positive": "Non si lascia influenzare dai messaggi veicolati dalla società/media",
+            "Negative": "Si lascia influenzare dai messaggi veicolati dalla società/media"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come sviluppa le proprie idee: Si lascia guidare?",
-        "AsResult": "Si lascia guidare nello sviluppo delle proprie idee"
+        "AsResult": {
+            "Positive": "Si lascia guidare nello sviluppo delle proprie idee",
+            "Negative": "Non si lascia guidare nello sviluppo delle proprie idee"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come sviluppa le proprie idee: Ricerca?",
-        "AsResult": "Ricerca nello sviluppo delle proprie idee"
+        "AsResult": {
+            "Positive": "Ricerca nello sviluppo delle proprie idee",
+            "Negative": "Non ricerca nello sviluppo delle proprie idee"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come sviluppa le proprie idee: Elabora?",
-        "AsResult": "Elabora le proprie idee"
+        "AsResult": {
+            "Positive": "Elabora le proprie idee",
+            "Negative": "Non elabora le proprie idee"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come sviluppa le proprie idee: Si lascia influenzare dagli stereotipi?",
-        "AsResult": "Si lascia influenzare dagli stereotipi nello sviluppo delle proprie idee"
+        "AsResult": {
+            "Positive": "Non si lascia influenzare dagli stereotipi nello sviluppo delle proprie idee",
+            "Negative": "Si lascia influenzare dagli stereotipi nello sviluppo delle proprie idee"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: È accogliente?",
-        "AsResult": "È accogliente con le diversità"
+        "AsResult": {
+            "Positive": "È accogliente con le diversità",
+            "Negative": "Non è accogliente con le diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Curioso?",
-        "AsResult": "È curioso delle diversità"
+        "AsResult": {
+            "Positive": "È curioso delle diversità",
+            "Negative": "Non è curioso delle diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Impaurito?",
-        "AsResult": "È impaurito delle diversità"
+        "AsResult": {
+            "Positive": "È impaurito delle diversità",
+            "Negative": "Non è impaurito delle diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Discriminante?",
-        "AsResult": "È discriminante con le diversità"
+        "AsResult": {
+            "Positive": "Non è discriminante con le diversità",
+            "Negative": "È discriminante con le diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Come vive e gestisce il conflitto?",
-        "AsResult": "Vive e gestisce il conflitto con le diversità"
+        "AsResult": {
+            "Positive": "Non vive e gestisce il conflitto con le diversità",
+            "Negative": "Vive e gestisce il conflitto con le diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo fa esplodere?",
-        "AsResult": "Fa esplodere il conflitto con le diversità"
+        "AsResult": {
+            "Positive": "Non fa esplodere il conflitto con le diversità",
+            "Negative": "Fa esplodere il conflitto con le diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo previene?",
-        "AsResult": "Previene il conflitto con le diversità"
+        "AsResult": {
+            "Positive": "Non previene il conflitto con le diversità",
+            "Negative": "Previene il conflitto con le diversità"
+        }
     },
     {
         "Area": "Impegno Civile",
         "Question": "Come si relaziona con le diversità con cui entra in contatto: Lo cerca?",
-        "AsResult": "Cerca il conflitto con le diversità"
+        "AsResult": {
+            "Positive": "Non cerca il conflitto con le diversità",
+            "Negative": "Cerca il conflitto con le diversità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Quanta consapevolezza ha dei propri limiti e delle proprie potenzialità: Si interroga?",
-        "AsResult": "Si interroga sui propri limiti e potenzialità"
+        "AsResult": {
+            "Positive": "Si interroga sui propri limiti e potenzialità",
+            "Negative": "Non si interroga sui propri limiti e potenzialità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Quanta consapevolezza ha dei propri limiti e delle proprie potenzialità: Si mette alla prova?",
-        "AsResult": "Si mette alla prova sui propri limiti e potenzialità"
+        "AsResult": {
+            "Positive": "Si mette alla prova sui propri limiti e potenzialità",
+            "Negative": "Non si mette alla prova sui propri limiti e potenzialità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive i cambiamenti del proprio corpo: Ne è consapevole?",
-        "AsResult": "È consapevole dei cambiamenti del proprio corpo"
+        "AsResult": {
+            "Positive": "È consapevole dei cambiamenti del proprio corpo",
+            "Negative": "Non è consapevole dei cambiamenti del proprio corpo"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive i cambiamenti del proprio corpo: Li accetta?",
-        "AsResult": "Accetta i cambiamenti del proprio corpo"
+        "AsResult": {
+            "Positive": "Accetta i cambiamenti del proprio corpo",
+            "Negative": "Non accetta i cambiamenti del proprio corpo"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive i cambiamenti del proprio corpo: Si valorizza?",
-        "AsResult": "Si valorizza nei cambiamenti del proprio corpo"
+        "AsResult": {
+            "Positive": "Si valorizza nei cambiamenti del proprio corpo",
+            "Negative": "Non si valorizza nei cambiamenti del proprio corpo"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come sviluppa i suoi sensi: Li allena?",
-        "AsResult": "Allena i propri sensi"
+        "AsResult": {
+            "Positive": "Allena i propri sensi",
+            "Negative": "Non allena i propri sensi"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come sviluppa i suoi sensi: Si mette alla prova?",
-        "AsResult": "Si mette alla prova sui propri sensi"
+        "AsResult": {
+            "Positive": "Si mette alla prova sui propri sensi",
+            "Negative": "Non si mette alla prova sui propri sensi"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come sviluppa i suoi sensi: Sperimenta?",
-        "AsResult": "Sperimenta i propri sensi"
+        "AsResult": {
+            "Positive": "Sperimenta i propri sensi",
+            "Negative": "Non sperimenta i propri sensi"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come sviluppa i suoi sensi: Sa utilizzarli tutti per entrare in relazione con il mondo e l'altro da sé?",
-        "AsResult": "Utilizza i sensi per entrare in relazione con il mondo e l'altro da sé"
+        "AsResult": {
+            "Positive": "Utilizza i sensi per entrare in relazione con il mondo e l'altro da sé",
+            "Negative": "Non utilizza i sensi per entrare in relazione con il mondo e l'altro da sé"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come gestisce il proprio corpo e la propria igiene?",
-        "AsResult": "Gestisce il proprio corpo e la propria igiene"
+        "AsResult": {
+            "Positive": "Gestisce il proprio corpo e la propria igiene",
+            "Negative": "Non gestisce il proprio corpo e la propria igiene"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Quanto e come tutela la propria salute: Conosce i comportamenti dannosi?",
-        "AsResult": "Conosce i comportamenti dannosi per la salute"
+        "AsResult": {
+            "Positive": "Conosce i comportamenti dannosi per la salute",
+            "Negative": "Non conosce i comportamenti dannosi per la salute"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Quanto e come tutela la propria salute: Attua condotte a rischio?",
-        "AsResult": "Attua condotte a rischio per la salute"
+        "AsResult": {
+            "Positive": "Non attua condotte a rischio per la salute",
+            "Negative": "Attua condotte a rischio per la salute"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive il rapporto con il cibo?",
-        "AsResult": "Vive il rapporto con il cibo"
+        "AsResult": {
+            "Positive": "Vive il rapporto con il cibo",
+            "Negative": "Non vive il rapporto con il cibo"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come comunica attraverso il corpo: E' attento e sensibile negli approcci fisici?",
-        "AsResult": "E' attento e sensibile negli approcci fisici"
+        "AsResult": {
+            "Positive": "E' attento e sensibile negli approcci fisici",
+            "Negative": "Non e' attento e sensibile negli approcci fisici"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come entra il relazione con il corpo altrui: E' rispettoso/a?",
-        "AsResult": "E' rispettoso/a del corpo altrui"
+        "AsResult": {
+            "Positive": "E' rispettoso/a del corpo altrui",
+            "Negative": "Non e' rispettoso/a del corpo altrui"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive la propria sessualità: Si interroga?",
-        "AsResult": "Si interroga sulla propria sessualità"
+        "AsResult": {
+            "Positive": "Si interroga sulla propria sessualità",
+            "Negative": "Non si interroga sulla propria sessualità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive la propria sessualità: La agisce?",
-        "AsResult": "Agisce la propria sessualità"
+        "AsResult": {
+            "Positive": "Agisce la propria sessualità",
+            "Negative": "Non agisce la propria sessualità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive la propria sessualità: E' curioso?",
-        "AsResult": "E' curioso sulla propria sessualità"
+        "AsResult": {
+            "Positive": "E' curioso sulla propria sessualità",
+            "Negative": "Non e' curioso sulla propria sessualità"
+        }
     },
     {
         "Area": "Corporeità",
         "Question": "Come vive la propria sessualità: Considera la componente emotivo-affettiva?",
-        "AsResult": "Considera la componente emotivo-affettiva della propria sessualità"
+        "AsResult": {
+            "Positive": "Considera la componente emotivo-affettiva della propria sessualità",
+            "Negative": "Non considera la componente emotivo-affettiva della propria sessualità"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: È creativo e fantasioso?",
-        "AsResult": "È creativo e fantasioso"
+        "AsResult": {
+            "Positive": "È creativo e fantasioso",
+            "Negative": "Non è creativo e fantasioso"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: È originale?",
-        "AsResult": "È originale"
+        "AsResult": {
+            "Positive": "È originale",
+            "Negative": "Non è originale"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: Le preserva?",
-        "AsResult": "Preserva le risorse a disposizione"
+        "AsResult": {
+            "Positive": "Preserva le risorse a disposizione",
+            "Negative": "Non preserva le risorse a disposizione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: Le spreca?",
-        "AsResult": "Spreca le risorse a disposizione"
+        "AsResult": {
+            "Positive": "Non spreca le risorse a disposizione",
+            "Negative": "Spreca le risorse a disposizione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia alla realtà che lo circonda: È curioso?",
-        "AsResult": "È curioso"
+        "AsResult": {
+            "Positive": "È curioso",
+            "Negative": "Non è curioso"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia alla realtà che lo circonda: Attento?",
-        "AsResult": "Attento"
+        "AsResult": {
+            "Positive": "Attento",
+            "Negative": "Non attento"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia ai problemi: Si lascia scoraggiare?",
-        "AsResult": "Si lascia scoraggiare dai problemi"
+        "AsResult": {
+            "Positive": "Non si lascia scoraggiare dai problemi",
+            "Negative": "Si lascia scoraggiare dai problemi"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia ai problemi: Cerca soluzioni originali?",
-        "AsResult": "Cerca soluzioni originali ai problemi"
+        "AsResult": {
+            "Positive": "Cerca soluzioni originali ai problemi",
+            "Negative": "Non cerca soluzioni originali ai problemi"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia ai problemi: Si “accomoda” sul già conosciuto?",
-        "AsResult": "Si “accomoda” sul già conosciuto"
+        "AsResult": {
+            "Positive": "Non si “accomoda” sul già conosciuto",
+            "Negative": "Si “accomoda” sul già conosciuto"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si approccia ai problemi: Osserva la situazione sotto vari punti di vista?",
-        "AsResult": "Osserva la situazione sotto vari punti di vista"
+        "AsResult": {
+            "Positive": "Osserva la situazione sotto vari punti di vista",
+            "Negative": "Non osserva la situazione sotto vari punti di vista"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si esprime: È creativo?",
-        "AsResult": "È creativo"
+        "AsResult": {
+            "Positive": "È creativo",
+            "Negative": "Non è creativo"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si esprime: Utilizza stereotipi?",
-        "AsResult": "Utilizza stereotipi per esprimersi"
+        "AsResult": {
+            "Positive": "Utilizza stereotipi per esprimersi",
+            "Negative": "Non utilizza stereotipi per esprimersi"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come si esprime: Ha interesse per forme creative di espressione?",
-        "AsResult": "Ha interesse per forme creative di espressione"
+        "AsResult": {
+            "Positive": "Ha interesse per forme creative di espressione",
+            "Negative": "Non ha interesse per forme creative di espressione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come gestisce i progetti: Ne conosce le fasi?",
-        "AsResult": "Conosce le fasi dei progetti"
+        "AsResult": {
+            "Positive": "Conosce le fasi dei progetti",
+            "Negative": "Non conosce le fasi dei progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come gestisce i progetti: Segue un filo logico?",
-        "AsResult": "Segue un filo logico nei progetti"
+        "AsResult": {
+            "Positive": "Segue un filo logico nei progetti",
+            "Negative": "Non segue un filo logico nei progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come gestisce i progetti: Considera le risorse necessarie?",
-        "AsResult": "Considera le risorse necessarie per i progetti"
+        "AsResult": {
+            "Positive": "Considera le risorse necessarie per i progetti",
+            "Negative": "Non considera le risorse necessarie per i progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come collabora con gli altri nella progettazione: È proattivo?",
-        "AsResult": "È proattivo nella progettazione"
+        "AsResult": {
+            "Positive": "È proattivo nella progettazione",
+            "Negative": "Non è proattivo nella progettazione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come collabora con gli altri nella progettazione: Aperto al confronto?",
-        "AsResult": "Aperto al confronto nella progettazione"
+        "AsResult": {
+            "Positive": "Aperto al confronto nella progettazione",
+            "Negative": "Non aperto al confronto nella progettazione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come collabora con gli altri nella progettazione: Ha spirito d'iniziativa?",
-        "AsResult": "Ha spirito d'iniziativa nella progettazione"
+        "AsResult": {
+            "Positive": "Ha spirito d'iniziativa nella progettazione",
+            "Negative": "Non ha spirito d'iniziativa nella progettazione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica i progetti: È attivo e proattivo?",
-        "AsResult": "È attivo e proattivo nella realizzazione dei progetti"
+        "AsResult": {
+            "Positive": "È attivo e proattivo nella realizzazione dei progetti",
+            "Negative": "Non è attivo e proattivo nella realizzazione dei progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica i progetti: Ha spirito d'iniziativa?",
-        "AsResult": "Ha spirito d'iniziativa nella realizzazione dei progetti"
+        "AsResult": {
+            "Positive": "Ha spirito d'iniziativa nella realizzazione dei progetti",
+            "Negative": "Non ha spirito d'iniziativa nella realizzazione dei progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica i progetti: Ha bisogno di essere sollecitato?",
-        "AsResult": "Ha bisogno di essere"
+        "AsResult": {
+            "Positive": "Ha bisogno di essere",
+            "Negative": "Non ha bisogno di essere"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica i progetti: Si sente responsabile?",
-        "AsResult": "Si sente responsabile nella realizzazione dei progetti"
+        "AsResult": {
+            "Positive": "Si sente responsabile nella realizzazione dei progetti",
+            "Negative": "Non si sente responsabile nella realizzazione dei progetti"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: Le valorizza?",
-        "AsResult": "Valorizza le risorse a disposizione"
+        "AsResult": {
+            "Positive": "Valorizza le risorse a disposizione",
+            "Negative": "Non valorizza le risorse a disposizione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come utilizza le risorse a disposizione: Le spreca?",
-        "AsResult": "Spreca le risorse a disposizione"
+        "AsResult": {
+            "Positive": "Non spreca le risorse a disposizione",
+            "Negative": "Spreca le risorse a disposizione"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica la sostenibilità: Fa attenzione a non sprecare?",
-        "AsResult": "Fa attenzione a non sprecare"
+        "AsResult": {
+            "Positive": "Non fa attenzione a non sprecare",
+            "Negative": "Fa attenzione a non sprecare"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica la sostenibilità: Attribuisce valore alle risorse?",
-        "AsResult": "Attribuisce valore alle risorse"
+        "AsResult": {
+            "Positive": "Attribuisce valore alle risorse",
+            "Negative": "Non attribuisce valore alle risorse"
+        }
     },
     {
         "Area": "Creatività",
         "Question": "Come mette in pratica la sostenibilità: Assume comportamenti sostenibili?",
-        "AsResult": "Assume comportamenti sostenibili"
+        "AsResult": {
+            "Positive": "Assume comportamenti sostenibili",
+            "Negative": "Non assume comportamenti sostenibili"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: È consapevole?",
-        "AsResult": "È consapevole del proprio ruolo"
+        "AsResult": {
+            "Positive": "È consapevole del proprio ruolo",
+            "Negative": "Non è consapevole del proprio ruolo"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: Si impegna in prima persona?",
-        "AsResult": "Si impegna in prima"
+        "AsResult": {
+            "Positive": "Si impegna in prima",
+            "Negative": "Non si impegna in prima"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il proprio ruolo nelle realtà in cui vive e nei progetti in cui è coinvolto: Si arrende o persevera?",
-        "AsResult": "Persevera nel proprio ruolo"
+        "AsResult": {
+            "Positive": "Persevera nel proprio ruolo",
+            "Negative": "Non persevera nel proprio ruolo"
+        }
     },
     {
         "Area": "Carattere",
@@ -416,216 +662,345 @@
     {
         "Area": "Carattere",
         "Question": "Come elabora le proprie opinioni/idee/scelte: È consapevole che ci possono dare diverse interpretazioni dello stesso messaggio/situazione?",
-        "AsResult": "È consapevole che ci possono dare diverse interpretazioni dello stesso messaggio/situazione"
+        "AsResult": {
+            "Positive": "È consapevole che ci possono dare diverse interpretazioni dello stesso messaggio/situazione",
+            "Negative": "Non è consapevole che ci possono dare diverse interpretazioni dello stesso messaggio/situazione"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come elabora le proprie opinioni/idee/scelte: È curioso?",
-        "AsResult": "È curioso"
+        "AsResult": {
+            "Positive": "È curioso",
+            "Negative": "Non è curioso"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come elabora le proprie opinioni/idee/scelte: Ha un atteggiamento critico di ricerca?",
-        "AsResult": "Ha un atteggiamento critico di ricerca"
+        "AsResult": {
+            "Positive": "Ha un atteggiamento critico di ricerca",
+            "Negative": "Non ha un atteggiamento critico di ricerca"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come elabora le proprie opinioni/idee/scelte: Porta avanti le proprie idee?",
-        "AsResult": "Porta avanti le proprie idee"
+        "AsResult": {
+            "Positive": "Porta avanti le proprie idee",
+            "Negative": "Non porta avanti le proprie idee"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il suo rapporto con i valori scout: Li conosce?",
-        "AsResult": "Conosce i valori scout"
+        "AsResult": {
+            "Positive": "Conosce i valori scout",
+            "Negative": "Non conosce i valori scout"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il suo rapporto con i valori scout: Li condivide?",
-        "AsResult": "Condivide i valori scout"
+        "AsResult": {
+            "Positive": "Condivide i valori scout",
+            "Negative": "Non condivide i valori scout"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il suo rapporto con i valori scout: Li rispetta?",
-        "AsResult": "Rispetta i valori scout"
+        "AsResult": {
+            "Positive": "Rispetta i valori scout",
+            "Negative": "Non rispetta i valori scout"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive il suo rapporto con i valori scout: Si impegna nel percorso di crescita alla luce di questi valori?",
-        "AsResult": "Si impegna nel percorso di crescita alla luce di questi valori"
+        "AsResult": {
+            "Positive": "Si impegna nel percorso di crescita alla luce di questi valori",
+            "Negative": "Non si impegna nel percorso di crescita alla luce di questi valori"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come gestisce le proprie emozioni: Le riconosce?",
-        "AsResult": "Riconosce le proprie emozioni"
+        "AsResult": {
+            "Positive": "Riconosce le proprie emozioni",
+            "Negative": "Non riconosce le proprie emozioni"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come gestisce le proprie emozioni: Le esprime?",
-        "AsResult": "Esprime le proprie emozioni"
+        "AsResult": {
+            "Positive": "Esprime le proprie emozioni",
+            "Negative": "Non esprime le proprie emozioni"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come si relaziona con le emozioni altrui: Le riconosce?",
-        "AsResult": "Riconosce le emozioni altrui"
+        "AsResult": {
+            "Positive": "Riconosce le emozioni altrui",
+            "Negative": "Non riconosce le emozioni altrui"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come si relaziona con le emozioni altrui: Le rispetta?",
-        "AsResult": "Rispetta le emozioni altrui"
+        "AsResult": {
+            "Positive": "Rispetta le emozioni altrui",
+            "Negative": "Non rispetta le emozioni altrui"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con gli altri: È rispettoso?",
-        "AsResult": "È rispettoso con gli altri"
+        "AsResult": {
+            "Positive": "È rispettoso con gli altri",
+            "Negative": "Non è rispettoso con gli altri"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con gli altri: Attento?",
-        "AsResult": "Attento con gli altri"
+        "AsResult": {
+            "Positive": "Attento con gli altri",
+            "Negative": "Non attento con gli altri"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con gli altri: Sensibile?",
-        "AsResult": "Sensibile con gli altri"
+        "AsResult": {
+            "Positive": "Sensibile con gli altri",
+            "Negative": "Non sensibile con gli altri"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con gli altri: Considera i bisogni dell'altro?",
-        "AsResult": "Considera i bisogni dell'altro"
+        "AsResult": {
+            "Positive": "Considera i bisogni dell'altro",
+            "Negative": "Non considera i bisogni dell'altro"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con gli altri: È empatico?",
-        "AsResult": "È empatico"
+        "AsResult": {
+            "Positive": "È empatico",
+            "Negative": "Non è empatico"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come entra in relazione con le figure di riferimento (adulti)?",
-        "AsResult": "Entra in relazione con le figure di riferimento (adulti)"
+        "AsResult": {
+            "Positive": "Entra in relazione con le figure di riferimento (adulti)",
+            "Negative": "Non entra in relazione con le figure di riferimento (adulti)"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come comunica: Sa usare più canali/mezzi?",
-        "AsResult": "Sa usare più canali/mezzi per comunicare"
+        "AsResult": {
+            "Positive": "Sa usare più canali/mezzi per comunicare",
+            "Negative": "Non sa usare più canali/mezzi per comunicare"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come comunica: Esprime le proprie idee, bisogni, emozioni in modo efficace?",
-        "AsResult": "Esprime le proprie idee, bisogni, emozioni in modo efficace"
+        "AsResult": {
+            "Positive": "Esprime le proprie idee, bisogni, emozioni in modo efficace",
+            "Negative": "Non esprime le proprie idee, bisogni, emozioni in modo efficace"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come comunica: Sa ascoltare?",
-        "AsResult": "Sa ascoltare"
+        "AsResult": {
+            "Positive": "Sa ascoltare",
+            "Negative": "Non sa ascoltare"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come comunica: Accoglie opinioni diverse dalle sue?",
-        "AsResult": "Accoglie opinioni diverse dalle sue"
+        "AsResult": {
+            "Positive": "Accoglie opinioni diverse dalle sue",
+            "Negative": "Non accoglie opinioni diverse dalle sue"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come comunica: Utilizza consapevolmente i social media?",
-        "AsResult": "Utilizza consapevolmente i social media"
+        "AsResult": {
+            "Positive": "Utilizza consapevolmente i social media",
+            "Negative": "Non utilizza consapevolmente i social media"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come si confronta: Sa essere costruttivo/a e accogliente?",
-        "AsResult": "Sa essere costruttivo/a e accogliente nel confronto"
+        "AsResult": {
+            "Positive": "Sa essere costruttivo/a e accogliente nel confronto",
+            "Negative": "Non sa essere costruttivo/a e accogliente nel confronto"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come si relaziona con il gruppo dei pari?",
-        "AsResult": "Si relaziona con il gruppo dei pari"
+        "AsResult": {
+            "Positive": "Si relaziona con il gruppo dei pari",
+            "Negative": "Non si relaziona con il gruppo dei pari"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive la collaborazione: La ricerca?",
-        "AsResult": "Ricerca la collaborazione"
+        "AsResult": {
+            "Positive": "Ricerca la collaborazione",
+            "Negative": "Non ricerca la collaborazione"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive la collaborazione: Valorizza il contributo degli altri?",
-        "AsResult": "Valorizza il contributo degli altri"
+        "AsResult": {
+            "Positive": "Valorizza il contributo degli altri",
+            "Negative": "Non valorizza il contributo degli altri"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive la collaborazione: Si impegna?",
-        "AsResult": "Si impegna nella collaborazione"
+        "AsResult": {
+            "Positive": "Si impegna nella collaborazione",
+            "Negative": "Non si impegna nella collaborazione"
+        }
     },
     {
         "Area": "Carattere",
         "Question": "Come vive la collaborazione: È proattivo?",
-        "AsResult": "È proattivo nella collaborazione"
+        "AsResult": {
+            "Positive": "È proattivo nella collaborazione",
+            "Negative": "Non è proattivo nella collaborazione"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: Si fa delle domande?",
-        "AsResult": "Si pone delle domande"
+        "AsResult": {
+            "Positive": "Si pone delle domande",
+            "Negative": "Non si pone delle domande"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: Si approccia in modo curioso e introspettivo alle situazioni che vive?",
-        "AsResult": "Si approccia in modo curioso e introspettivo alle situazioni che vive"
+        "AsResult": {
+            "Positive": "Si approccia in modo curioso e introspettivo alle situazioni che vive",
+            "Negative": "Non si approccia in modo curioso e introspettivo alle situazioni che vive"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: Cerca delle risposte possibili?",
-        "AsResult": "Cerca delle risposte possibili"
+        "AsResult": {
+            "Positive": "Cerca delle risposte possibili",
+            "Negative": "Non cerca delle risposte possibili"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: È consapevole della \"parzialità\" delle risposte?",
-        "AsResult": "È consapevole della \"parzialità\" delle risposte"
+        "AsResult": {
+            "Positive": "È consapevole della \"parzialità\" delle risposte",
+            "Negative": "Non è consapevole della \"parzialità\" delle risposte"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: Si confronta con gli altri?",
-        "AsResult": "Si confronta con gli altri"
+        "AsResult": {
+            "Positive": "Si confronta con gli altri",
+            "Negative": "Non si confronta con gli altri"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come vive lo spirito di ricerca: È rispettoso delle risposte altrui?",
-        "AsResult": "È rispettoso delle risposte altrui"
+        "AsResult": {
+            "Positive": "È rispettoso delle risposte altrui",
+            "Negative": "Non è rispettoso delle risposte altrui"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Si pone delle domande anche sul trascendente: Trova alcune risposte in tal senso?",
-        "AsResult": "Trova alcune risposte in tal senso"
+        "AsResult": {
+            "Positive": "Trova alcune risposte in tal senso",
+            "Negative": "Non trova alcune risposte in tal senso"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Si pone delle domande anche sul trascendente: Sa che gli altri possono trovarne?",
-        "AsResult": "Sa che gli altri possono trovarne"
+        "AsResult": {
+            "Positive": "Sa che gli altri possono trovarne",
+            "Negative": "Non sa che gli altri possono trovarne"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come rielabora le esperienze che vive: Sa riconoscere le \"tracce\" lasciate?",
-        "AsResult": "Sa riconoscere le \"tracce\" lasciate"
+        "AsResult": {
+            "Positive": "Sa riconoscere le \"tracce\" lasciate",
+            "Negative": "Non sa riconoscere le \"tracce\" lasciate"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come rielabora le esperienze che vive: Riconosce gli effetti di queste tracce sulla sua crescita?",
-        "AsResult": "Riconosce gli effetti di queste tracce sulla sua crescita"
+        "AsResult": {
+            "Positive": "Riconosce gli effetti di queste tracce sulla sua crescita",
+            "Negative": "Non riconosce gli effetti di queste tracce sulla sua crescita"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come rielabora le esperienze che vive: Riesce a trarre esperienza e crescita anche dai vissuti negativi?",
-        "AsResult": "Riesce a trarre esperienza e crescita anche dai vissuti negativi"
+        "AsResult": {
+            "Positive": "Riesce a trarre esperienza e crescita anche dai vissuti negativi",
+            "Negative": "Non riesce a trarre esperienza e crescita anche dai vissuti negativi"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come mette in pratica i propri valori: Li sa esprimere?",
-        "AsResult": "Sa esprimere i propri valori"
+        "AsResult": {
+            "Positive": "Sa esprimere i propri valori",
+            "Negative": "Non sa esprimere i propri valori"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come mette in pratica i propri valori: Sa riconoscere i comportamenti coerenti?",
-        "AsResult": "Sa riconoscere i comportamenti coerenti"
+        "AsResult": {
+            "Positive": "Sa riconoscere i comportamenti coerenti",
+            "Negative": "Non sa riconoscere i comportamenti coerenti"
+        }
     },
     {
         "Area": "Dimensione Spirituale",
         "Question": "Come mette in pratica i propri valori: Li mette in atto?",
-        "AsResult": "Mette in atto i propri valori"
+        "AsResult": {
+            "Positive": "Mette in atto i propri valori",
+            "Negative": "Non mette in atto i propri valori"
+        }
     }
 ]
