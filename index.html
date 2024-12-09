@@ -12,7 +12,8 @@
 <body>
     <h1>Swipiamo l'analisi</h1>
     <p style="text-align: center;">
-        swipa a destra per dire che è un punto di forza, a sinistra per dire che è un punto da incrementare, verso l'alto per dire che non sai
+        swipa a destra per dire che è un punto di forza, a sinistra per dire che è un punto da incrementare, verso
+        l'alto per dire che non sai
     </p>
     <div style="
     flex-grow: 0.2;
@@ -20,9 +21,16 @@
     <div class="container">
 
         <div id="question-container">
-            <h3 id="questionArea">
-                </h1>
+            <h3 id="questionArea"> </h3>
+            <div id="currentQuestion">
                 <h1 id="question"></h1>
+                <div id="SkipQuestion">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16">
+                        <path fill="currentColor"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407L9.5 8.972V10.5a.5.5 0 0 0 1 0v-5a.5.5 0 0 0-1 0v1.528L6.79 5.093z" />
+                    </svg>
+                </div>
+            </div>
         </div>
         <div id="name-container">
             <div id="swipe-up">
@@ -56,14 +64,11 @@
     flex-grow: 0.1;
     "></div>
     <div class="links">
-        
-<!-- <a href="/compare.html" style="
-color: black;
-text-decoration: underline;    ">Confronta Risultati</a> -->
+
         <a href="#" onclick="showResults()" style="
         color: black;
         text-decoration: underline;    ">Risultati</a>
-        
+
     </div>
     <div id="nameList">
         <span class="modal-close">x</span>

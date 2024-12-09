@@ -269,6 +269,12 @@ $(document).ready(function () {
         $("#"+e.target.parentElement.id).hide();
     })
 
+
+    $("#SkipQuestion").click(() => {
+        QuestionIndex++;
+        nameIndex = 0;
+        loadContent();
+    });
     // Load the initial content
     loadContent();
 });

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font */
   margin: 0;
   padding: 0;
   display: flex;
@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background-color: #e9ecef; /* Softer background color */
 }
 
 .content {}
@@ -21,6 +21,10 @@ body {
 
 #question-container {
   margin-bottom: 20px;
+  height: 180px;
+}
+#question{
+  font-size: clamp(1rem, 1.5rem, 3rem)
 }
 
 .card {
@@ -34,7 +38,7 @@ body {
   color: white;
   border-radius: 10px;
   font-size: 1.5em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
   cursor: pointer;
   position: relative;
   user-select: none;
@@ -56,6 +60,9 @@ body {
   background-color: #ffc107;
   transform: translateY(-150%);
   transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 
@@ -80,8 +87,7 @@ body {
 }
 
 button {
-  background-color: #04AA6D;
-  /* Green */
+  background-color: #28a745; /* Green button */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -89,6 +95,10 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+}
+button:hover {
+  background-color: #218838; /* Darker green on hover */
 }
 
 #TextAreaNames {
@@ -151,6 +161,7 @@ button {
 
 #results {
   height: 100%;
+  width: 100%;
   overflow: auto;
 }
 
@@ -210,4 +221,14 @@ td {
   width: 100%;
   flex-direction: row;
   align-items: center;
+}
+
+#currentQuestion{
+  position: relative;
+}
+
+#SkipQuestion {
+  position: absolute;
+  right: 0;
+  top: -44px;
 }
