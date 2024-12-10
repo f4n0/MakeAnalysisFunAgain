@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Swipe App - Compare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Confrontiamo l'analisi</h1>
+    <p style="text-align: center;    margin: auto 10px 0;">
+        Carica i risultati e conforntali con quelli del tuo staff!
+    </p>
+    <div style="
+    flex-grow: 0.2;
+    "></div>
+    <div class="container" style="min-width: 100% !important;">
+        <form id="FileUpload">
+            <input type="file" id="files" multiple accept=".json">
+            <input type="submit" value="Carica">
+        </form>
+        <div id="result-container" style="
+        height: 80vh;
+        width: 100%;
+    ">
+            <div id="resultFileColors"></div>
+            <div id="results"></div>
+        </div>
+
+
+    </div>
+    <div style="
+    flex-grow: 0.1;
+    "></div>
+    <div class="links">
+
+        <a href="/index.html" style="
+        color: black;
+        text-decoration: underline;    ">Swipa</a>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Compara.js"></script>
+</body>
+
+</html>
