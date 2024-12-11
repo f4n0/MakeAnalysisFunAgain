@@ -1,234 +1,25 @@
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font */
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  background-color: #e9ecef; /* Softer background color */
+.bi {
+  -webkit-text-stroke: 2px;
+  font-size: 1.5rem;
 }
 
-.content {}
-
-.container {
-  text-align: center;
-  width: 90%;
-  max-width: 400px;
-  word-break: break-word;
-}
-
-#question-container {
-  margin-bottom: 20px;
-  height: 180px;
-}
-#question{
-  font-size: clamp(1rem, 1.5rem, 3rem)
-}
-
-.card {
-  width: 100%;
-  height: 150px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #007bff;
-  color: white;
-  border-radius: 10px;
-  font-size: 1.5em;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
-  cursor: pointer;
-  position: relative;
-  user-select: none;
-}
-
-.card.swipe-right {
-  background-color: #28a745;
+.swipe-right {
+  background-color: #28a745 !important;
   transform: translateX(150%);
   transition: transform 0.3s ease-in-out;
 }
 
-.card.swipe-left {
-  background-color: #dc3545;
+.swipe-left {
+  background-color: #dc3545 !important;
   transform: translateX(-150%);
   transition: transform 0.3s ease-in-out;
 }
 
-.card.swipe-up {
-  background-color: #ffc107;
+.swipe-up {
+  background-color: #ffc107 !important;
   transform: translateY(-150%);
   transition: transform 0.3s ease-in-out;
 }
-.card:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
-}
-
-
-#nameList {
-  position: absolute;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
-  width: 70%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4f9;
-  border: 2px solid #007bff;
-  box-shadow: 6px 6px 5px 0px #007bff52;
-  -webkit-box-shadow: 6px 6px 5px 0px #007bff52;
-  -moz-box-shadow: 6px 6px 5px 0px #007bff52;
-  border-radius: 10px;
-}
-
-button {
-  background-color: #28a745; /* Green button */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px; /* Rounded corners */
-}
-button:hover {
-  background-color: #218838; /* Darker green on hover */
-}
-
-#TextAreaNames {
-  resize: none;
-}
-
-#TextAreaNames.auto {
-  overflow-y: hidden;
-}
-
-#TextAreaNames {
-  -webkit-appearance: none;
-  box-sizing: border-box;
-  outline: none;
-  width: 100%;
-  max-width: 250px;
-  font-size: 14px;
-  line-height: 22px;
-  padding: 16px 20px;
-  border-radius: 15px;
-  height: 100%;
-  overflow-y: auto;
-  color: #404660;
-  border: none;
-  background: #fff;
-  transition: box-shadow 0.25s;
-  box-shadow: inset 0 0 0 1px var(--border-color, #E1E6F9), 0 0 0 3px var(--focus-color, transparent);
-
-  margin-bottom: 15px;
-}
-
-#TextAreaNames:focus {
-  --focus-color: #ECEFFC;
-}
-
-#TextAreaNames:focus,
-#TextAreaNames:hover {
-  --border-color: #BBC1E1;
-}
-
-#ResultContainer {
-  position: absolute;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
-  height: 500px;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4f9;
-  border: 2px solid #007bff;
-  box-shadow: 6px 6px 5px 0px #007bff52;
-  -webkit-box-shadow: 6px 6px 5px 0px #007bff52;
-  -moz-box-shadow: 6px 6px 5px 0px #007bff52;
-  border-radius: 10px;
-}
-
-#results {
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-}
-
-.modal-close {
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right: 15px;
-  margin-top: 10px;
-  font-weight: 900;
-  width: 15px;
-  height: 15px;
-}
-
-#name-container {
-  display: grid;
-  align-items: center;
-  grid-row-gap: 2rem;
-  grid-column-gap: 1rem;
-  grid-template-columns: 30px auto 30px;
-}
-
-#swipe-card {
-  grid-column: 2;
-}
-
-#swipe-up {
-  grid-row: 1;
-  grid-column: 2;
-  color: #ffca00;
-}
-
-#swipe-left {
-  grid-row: 2;
-  grid-column: 1;
-  color: #c11212;
-}
-
-#swipe-right {
-  grid-row: 2;
-  grid-column: 3;
-  color: #18ab1d;
-}
-
-
-table,
-th,
-td {
-  border: 1px solid;
-}
-
-.links {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-}
-
-#currentQuestion{
-  position: relative;
-}
-
-#SkipQuestion {
-  position: absolute;
-  right: 0;
-  top: -44px;
+body{
+  overflow: hidden;
 }

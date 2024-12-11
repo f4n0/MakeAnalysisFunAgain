@@ -95,7 +95,7 @@ $(document).ready(function () {
         resultViewModel.forEach(result => {
             resultsHtml += `<div class="result-item">
             <h3>${result.name}</h3>
-            <table>
+            <table class="table-responsive table-bordered">
             <tr>
                 <th>Area</th>
                 <th>Punti di Forza</th>
