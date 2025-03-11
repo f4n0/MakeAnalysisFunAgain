@@ -49,6 +49,34 @@ $(document).ready(function () {
 
     });
 
+    $(document).keydown(function(event) {
+        let done = false;
+        switch (event.which) {
+            case 37: // Left Arrow Key
+                $("#SwipeCard").addClass("swipe-left");
+                addResponse("Negative");
+                done = true;
+                break;
+            case 38: // Up Arrow Key
+                $("#SwipeCard").addClass("swipe-up");
+                addResponse("NotSure");
+                done = true;
+                break;
+            case 39: // Right Arrow Key
+                $("#SwipeCard").addClass("swipe-right");
+                addResponse("Positive");
+                done = true;
+                break;
+        }
+        if(done) {
+            setTimeout(() => {
+                nameIndex++;
+                loadContent();
+                resetCard();
+            }, 300);
+        }
+    });
+
     function addResponse(responseType) {
         let question = questions[QuestionIndex];
         if (!results) {
